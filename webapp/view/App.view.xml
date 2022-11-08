@@ -1,0 +1,32 @@
+<mvc:View
+	controllerName="testingproject.controller.App"
+	xmlns:mvc="sap.ui.core.mvc"
+	displayBlock="true"
+	xmlns="sap.m"
+>
+	<Page
+		id="page"
+		title="{i18n>title}"
+	>
+		<subHeader>
+			<OverflowToolbar>
+				<ToolbarSpacer/>
+				<Label text="{i18n>inputLabelDateRange}"/>
+				<DateRangeSelection
+					id="dateRangeSelector"
+					displayFormat="dd.MM.yyyy"
+					showFooter="true"
+					width="13.75em"
+				/>
+				<Button
+					id="displayAllOrdersButton"
+					type="Emphasized"
+					text="{i18n>showAllOrdersButton}"
+					icon="sap-icon://blank-tag"
+				/>
+			</OverflowToolbar>
+		</subHeader>
+		<content>
+		</content>
+	</Page>
+</mvc:View>
