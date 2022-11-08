@@ -17,8 +17,10 @@
 |**Add Eslint configuration**<br>False|
 
 ## testing_project
+ Before any test can be executed make sure to keep the ui5 app up and running using two different terminals to execute the following commands
 
 ```
+    ui5 serve
     npm test
 ```
 
